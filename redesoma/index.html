@@ -76,16 +76,31 @@
       }
 
       @media (min-width: 768px) {
-        .mobile {
+        /* .mobile {
           display: none;
         }
 
         .desktop {
           display: block;
-        }
+        } */
 
         .stamps {
           gap: 4rem;
+        }
+      }
+
+      @media (max-width: 768px) {
+        /* .mobile {
+          display: block;
+        }
+
+        .desktop {
+          display: none;
+        } */
+
+        .stamps {
+          flex-direction: column;
+          gap: 2rem;
         }
       }
     </style>
@@ -105,14 +120,14 @@
       </section>
       <section class="stamps">
         <a rel="noopener" href="https://doe.social/1000" target="_blank">
-          <img
+          <!-- <img
             class="mobile"
             src="img/stamps/gold.svg"
             width="106"
             height="132"
             title="Selo de Responsabilidade Social Fortini Ouro - Rede Soma"
             alt="Selo de Responsabilidade Social Fortini Ouro - Rede Soma"
-          />
+          /> -->
           <img
             class="desktop"
             src="img/stamps/gold.svg"
@@ -124,14 +139,14 @@
           <p class="gold">R$ 1.000,00</p>
         </a>
         <a rel="noopener" href="https://doe.social/500" target="_blank">
-          <img
+          <!-- <img
             class="mobile"
             src="img/stamps/silver.svg"
             width="106"
             height="132"
             title="Selo de Responsabilidade Social Fortini Prata - Rede Soma"
             alt="Selo de Responsabilidade Social Fortini Prata - Rede Soma"
-          />
+          /> -->
           <img
             class="desktop"
             src="img/stamps/silver.svg"
@@ -143,14 +158,14 @@
           <p class="silver">R$ 500,00</p>
         </a>
         <a rel="noopener" href="https://doe.social/200" target="_blank">
-          <img
+          <!-- <img
             class="mobile"
             src="img/stamps/bronze.svg"
             width="106"
             height="132"
             title="Selo de Responsabilidade Social Fortini Bronze - Rede Soma"
             alt="Selo de Responsabilidade Social Fortini Bronze - Rede Soma"
-          />
+          /> -->
           <img
             class="desktop"
             src="img/stamps/bronze.svg"
